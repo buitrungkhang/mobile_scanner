@@ -358,6 +358,7 @@ class MobileScanner(
                     analysis
                 )
                 cameraSelector = cameraPosition
+                isPaused = false
             } catch(exception: Exception) {
                 mobileScannerErrorCallback(NoCamera())
 
